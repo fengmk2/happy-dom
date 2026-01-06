@@ -2,7 +2,7 @@ import DetachedBrowser from '../../../src/browser/detached-browser/DetachedBrows
 import DetachedBrowserPage from '../../../src/browser/detached-browser/DetachedBrowserPage';
 import Window from '../../../src/window/Window';
 import BrowserWindow from '../../../src/window/BrowserWindow';
-import { describe, it, expect, afterEach, vi } from 'vitest';
+import { describe, it, expect, afterEach, vi } from '@voidzero-dev/vite-plus/test';
 
 describe('DetachedBrowserContext', () => {
 	afterEach(() => {

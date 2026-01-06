@@ -8,7 +8,7 @@ import SVGNumber from '../../../src/svg/SVGNumber.js';
 import SVGLength from '../../../src/svg/SVGLength.js';
 import SVGAngle from '../../../src/svg/SVGAngle.js';
 import SVGTransform from '../../../src/svg/SVGTransform.js';
-import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import SVGPreserveAspectRatioAlignEnum from '../../../src/svg/SVGPreserveAspectRatioAlignEnum.js';
 import SVGPreserveAspectRatioMeetOrSliceEnum from '../../../src/svg/SVGPreserveAspectRatioMeetOrSliceEnum.js';
 import ParentNodeUtility from '../../../src/nodes/parent-node/ParentNodeUtility.js';

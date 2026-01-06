@@ -1,5 +1,8 @@
 name: Pull request
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 on:
   pull_request
 

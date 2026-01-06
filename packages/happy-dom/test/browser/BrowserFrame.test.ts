@@ -4,7 +4,7 @@ import Event from '../../src/event/Event';
 import BrowserWindow from '../../src/window/BrowserWindow';
 import Request from '../../src/fetch/Request';
 import Response from '../../src/fetch/Response';
-import { describe, it, expect, afterEach, vi } from 'vitest';
+import { describe, it, expect, afterEach, vi } from '@voidzero-dev/vite-plus/test';
 import Fetch from '../../src/fetch/Fetch';
 import DOMExceptionNameEnum from '../../src/exception/DOMExceptionNameEnum';
 import BrowserNavigationCrossOriginPolicyEnum from '../../src/browser/enums/BrowserNavigationCrossOriginPolicyEnum';

@@ -1,5 +1,5 @@
 import File from '../../src/file/File.js';
-import { afterEach, describe, it, expect, vi } from 'vitest';
+import { afterEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 
 const NOW = 1;
 

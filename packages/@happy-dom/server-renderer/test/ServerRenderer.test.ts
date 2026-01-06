@@ -1,4 +1,4 @@
-import { describe, it, expect, afterEach, vi, beforeEach } from 'vitest';
+import { describe, it, expect, afterEach, vi, beforeEach } from '@voidzero-dev/vite-plus/test';
 import ServerRenderer from '../src/ServerRenderer.js';
 import MockedURLList from './MockedURLList.js';
 import IServerRendererResult from '../src/types/IServerRendererResult.js';

@@ -1,7 +1,7 @@
 import ClipboardItem from '../../src/clipboard/ClipboardItem.js';
 import Blob from '../../src/file/Blob.js';
 import Window from '../../src/window/Window.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('Clipboard', () => {
 	let window: Window;

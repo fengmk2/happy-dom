@@ -1,6 +1,6 @@
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import SVGGradientElement from '../../../src/nodes/svg-gradient-element/SVGGradientElement.js';
 import SVGGraphicsElement from '../../../src/nodes/svg-graphics-element/SVGGraphicsElement.js';
 import SVGTransformTypeEnum from '../../../src/svg/SVGTransformTypeEnum.js';

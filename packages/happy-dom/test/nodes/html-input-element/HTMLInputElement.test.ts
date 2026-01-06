@@ -10,7 +10,7 @@ import ValidityState from '../../../src/validity-state/ValidityState.js';
 import HTMLFormElement from '../../../src/nodes/html-form-element/HTMLFormElement.js';
 import DOMExceptionNameEnum from '../../../src/exception/DOMExceptionNameEnum.js';
 import SubmitEvent from '../../../src/event/events/SubmitEvent.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import PointerEvent from '../../../src/event/events/PointerEvent.js';
 import MouseEvent from '../../../src/event/events/MouseEvent.js';
 import HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';

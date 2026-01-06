@@ -1,5 +1,5 @@
 import CSSUnitValue from '../../src/css/CSSUnitValue.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('CSSUnitValue', () => {
 	describe('constructor()', () => {

@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach } from '@voidzero-dev/vite-plus/test';
 import BrowserWindow from '../../../src/window/BrowserWindow.js';
 import Window from '../../../src/window/Window.js';
 

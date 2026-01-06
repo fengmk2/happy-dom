@@ -1,7 +1,7 @@
 import HTMLSourceElement from '../../../src/nodes/html-source-element/HTMLSourceElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('HTMLSourceElement', () => {
 	let window: Window;

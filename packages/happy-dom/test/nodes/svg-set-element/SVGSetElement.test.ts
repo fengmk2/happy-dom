@@ -1,7 +1,7 @@
 import SVGSetElement from '../../../src/nodes/svg-set-element/SVGSetElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import SVGAnimationElement from '../../../src/nodes/svg-animation-element/SVGAnimationElement.js';
 import BrowserWindow from '../../../src/window/BrowserWindow.js';
 

@@ -8,7 +8,7 @@ import HTMLTemplateElement from '../../../src/nodes/html-template-element/HTMLTe
 import Text from '../../../src/nodes/text/Text.js';
 import NodeList from '../../../src/nodes/node/NodeList.js';
 import Element from '../../../src/nodes/element/Element.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 
 describe('DocumentFragment', () => {

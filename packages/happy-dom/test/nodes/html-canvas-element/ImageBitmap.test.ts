@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import ImageBitmap from '../../../src/nodes/html-canvas-element/ImageBitmap.js';
 
 describe('ImageBitmap', () => {

@@ -1,7 +1,7 @@
 import HTMLAreaElement from '../../../src/nodes/html-area-element/HTMLAreaElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import PointerEvent from '../../../src/event/events/PointerEvent.js';
 import Request from '../../../src/fetch/Request.js';
 import Response from '../../../src/fetch/Response.js';

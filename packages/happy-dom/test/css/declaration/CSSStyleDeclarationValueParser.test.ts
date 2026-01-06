@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import CSSStyleDeclarationValueParser from '../../../src/css/declaration/property-manager/CSSStyleDeclarationValueParser.js';
 import CSSColor from '@webref/css/css-color.json';
 

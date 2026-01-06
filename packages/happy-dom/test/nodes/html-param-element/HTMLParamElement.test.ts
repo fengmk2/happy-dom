@@ -1,7 +1,7 @@
 import HTMLParamElement from '../../../src/nodes/html-param-element/HTMLParamElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('HTMLParamElement', () => {
 	let window: Window;

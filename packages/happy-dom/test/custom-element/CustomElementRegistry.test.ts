@@ -2,7 +2,7 @@ import CustomElement from '../CustomElement.js';
 import CustomElementRegistry from '../../src/custom-element/CustomElementRegistry.js';
 import Window from '../../src/window/Window.js';
 import Document from '../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 import NamespaceURI from '../../src/config/NamespaceURI.js';
 import ICustomElementDefinition from '../../src/custom-element/ICustomElementDefinition.js';

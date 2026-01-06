@@ -8,7 +8,7 @@ import DOMExceptionNameEnum from '../../../src/exception/DOMExceptionNameEnum.js
 import Text from '../../../src/nodes/text/Text.js';
 import EventPhaseEnum from '../../../src/event/EventPhaseEnum.js';
 import ErrorEvent from '../../../src/event/events/ErrorEvent.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import ShadowRoot from '../../../src/nodes/shadow-root/ShadowRoot.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import EventTarget from '../../../src/event/EventTarget.js';

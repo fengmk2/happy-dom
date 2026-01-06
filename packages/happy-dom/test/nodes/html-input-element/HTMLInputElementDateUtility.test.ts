@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import HTMLInputElementDateUtility from '../../../src/nodes/html-input-element/HTMLInputElementDateUtility.js';
 
 describe('HTMLInputElementDateUtility', () => {

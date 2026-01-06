@@ -6,7 +6,7 @@ import HTMLInputElementSelectionDirectionEnum from '../../../src/nodes/html-inpu
 import ValidityState from '../../../src/validity-state/ValidityState.js';
 import Event from '../../../src/event/Event.js';
 import Text from '../../../src/nodes/text/Text.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('HTMLTextAreaElement', () => {
 	let window: Window;

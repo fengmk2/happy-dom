@@ -1,6 +1,6 @@
 import GlobalWindow from '../../src/window/GlobalWindow.js';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('GlobalWindow', () => {
 	let window: GlobalWindow;

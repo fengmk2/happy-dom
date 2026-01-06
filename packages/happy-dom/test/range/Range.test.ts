@@ -4,7 +4,7 @@ import Range from '../../src/range/Range.js';
 import NodeTypeEnum from '../../src/nodes/node/NodeTypeEnum.js';
 import Text from '../../src/nodes/text/Text.js';
 import DOMRect from '../../src/dom/DOMRect.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import Node from '../../src/nodes/node/Node.js';
 
 describe('Range', () => {

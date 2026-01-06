@@ -2,7 +2,7 @@ import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
 import File from '../../../src/file/File.js';
 import HTMLInputElement from '../../../src/nodes/html-input-element/HTMLInputElement.js';
-import { beforeEach, afterEach, describe, it, expect } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('FileList', () => {
 	let window: Window;

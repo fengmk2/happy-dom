@@ -1,6 +1,6 @@
 import Window from '../../src/window/Window.js';
 import PermissionNameEnum from '../../src/permissions/PermissionNameEnum.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('Permissions', () => {
 	let window: Window;

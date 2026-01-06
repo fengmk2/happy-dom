@@ -1,5 +1,5 @@
 import CustomEvent from '../../../src/event/events/CustomEvent.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('CustomEvent', () => {
 	describe('constructor()', () => {

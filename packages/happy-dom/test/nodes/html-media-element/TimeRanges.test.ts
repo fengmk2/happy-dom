@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach } from '@voidzero-dev/vite-plus/test';
 import TimeRanges from '../../../src/nodes/html-media-element/TimeRanges.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 

@@ -1,7 +1,7 @@
 import SVGSymbolElement from '../../../src/nodes/svg-symbol-element/SVGSymbolElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import BrowserWindow from '../../../src/window/BrowserWindow.js';
 import SVGGraphicsElement from '../../../src/nodes/svg-graphics-element/SVGGraphicsElement.js';
 

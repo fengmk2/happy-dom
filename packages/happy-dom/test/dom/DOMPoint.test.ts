@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import DOMPoint from '../../src/dom/DOMPoint.js';
 
 describe('DOMPoint', () => {

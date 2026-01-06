@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import ProcessArgumentsParser from '../../src/utilities/ProcessArgumentsParser.js';
 import DefaultServerRendererConfiguration from '../../src/config/DefaultServerRendererConfiguration.js';
 import IServerRendererConfiguration from '../../src/types/IServerRendererConfiguration.js';

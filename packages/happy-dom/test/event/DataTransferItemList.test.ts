@@ -1,6 +1,6 @@
 import DataTransferItemList from '../../src/event/DataTransferItemList.js';
 import File from '../../src/file/File.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('DataTransferItemList', () => {
 	let dataTransferItemList: DataTransferItemList;

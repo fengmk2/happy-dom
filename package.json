@@ -36,7 +36,8 @@
 		"semver": "^7.3.5",
 		"turbo": "^2.5.4",
 		"typescript": "^5.8.3",
-		"vitest": "^4.0.16"
+		"vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+		"@voidzero-dev/vite-plus": "latest"
 	},
 	"happyLintChanged": {
 		"rules": [
@@ -48,5 +49,9 @@
 	},
 	"engines": {
 		"node": ">=20.0.0"
+	},
+	"overrides": {
+		"vite": "npm:@voidzero-dev/vite-plus-core@latest",
+		"vitest": "npm:@voidzero-dev/vite-plus-test@latest"
 	}
 }

@@ -7,7 +7,7 @@ import CSSKeyframeRule from '../../src/css/rules/CSSKeyframeRule.js';
 import CSSKeyframesRule from '../../src/css/rules/CSSKeyframesRule.js';
 import CSSContainerRule from '../../src/css/rules/CSSContainerRule.js';
 import CSSSupportsRule from '../../src/css/rules/CSSSupportsRule.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('CSSParser', () => {
 	describe('parseFromString()', () => {

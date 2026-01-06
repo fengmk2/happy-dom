@@ -17,7 +17,7 @@ import HTMLCollection from '../../../src/nodes/element/HTMLCollection.js';
 import Element from '../../../src/nodes/element/Element.js';
 import NodeList from '../../../src/nodes/node/NodeList.js';
 import Event from '../../../src/event/Event.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import DOMExceptionNameEnum from '../../../src/exception/DOMExceptionNameEnum.js';
 import DOMTokenList from '../../../src/dom/DOMTokenList.js';

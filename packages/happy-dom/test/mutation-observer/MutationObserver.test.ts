@@ -2,7 +2,7 @@ import Window from '../../src/window/Window.js';
 import Document from '../../src/nodes/document/Document.js';
 import MutationObserver from '../../src/mutation-observer/MutationObserver.js';
 import MutationRecord from '../../src/mutation-observer/MutationRecord.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('MutationObserver', () => {
 	let window: Window;

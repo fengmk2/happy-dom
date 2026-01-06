@@ -1,6 +1,6 @@
 import ClipboardEvent from '../../../src/event/events/ClipboardEvent.js';
 import DataTransfer from '../../../src/event/DataTransfer.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('ClipboardEvent', () => {
 	describe('constructor()', () => {

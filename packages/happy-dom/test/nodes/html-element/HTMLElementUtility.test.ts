@@ -3,7 +3,7 @@ import FocusEvent from '../../../src/event/events/FocusEvent.js';
 import Document from '../../../src/nodes/document/Document.js';
 import HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';
 import Window from '../../../src/window/Window.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import EventTarget from '../../../src/event/EventTarget.js';
 
 describe('HTMLElementUtility', () => {

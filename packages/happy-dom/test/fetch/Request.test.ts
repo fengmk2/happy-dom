@@ -12,7 +12,7 @@ import FetchBodyUtility from '../../src/fetch/utilities/FetchBodyUtility.js';
 import Blob from '../../src/file/Blob.js';
 import FormData from '../../src/form-data/FormData.js';
 import MultipartFormDataParser from '../../src/fetch/multipart/MultipartFormDataParser.js';
-import { beforeEach, describe, it, expect, vi, afterEach } from 'vitest';
+import { beforeEach, describe, it, expect, vi, afterEach } from '@voidzero-dev/vite-plus/test';
 import { ReadableStream } from 'stream/web';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 import File from '../../src/file/File.js';

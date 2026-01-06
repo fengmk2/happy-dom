@@ -7,7 +7,7 @@ import Zlib from 'zlib';
 import { TextEncoder } from 'util';
 import Blob from '../../src/file/Blob.js';
 import { URLSearchParams } from 'url';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import SyncFetchScriptBuilder from '../../src/fetch/utilities/SyncFetchScriptBuilder.js';
 import SyncFetch from '../../src/fetch/SyncFetch.js';
 import IBrowserFrame from '../../src/browser/types/IBrowserFrame.js';

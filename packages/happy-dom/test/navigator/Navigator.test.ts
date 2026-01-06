@@ -1,6 +1,6 @@
 import Window from '../../src/window/Window.js';
 import Navigator from '../../src/navigator/Navigator.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import Permissions from '../../src/permissions/Permissions.js';
 import Clipboard from '../../src/clipboard/Clipboard.js';
 import PackageVersion from '../../src/version.js';

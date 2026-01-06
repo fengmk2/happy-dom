@@ -1,4 +1,4 @@
-import { afterEach, describe, it, expect, vi } from 'vitest';
+import { afterEach, describe, it, expect, vi } from '@voidzero-dev/vite-plus/test';
 import DOMRect from '../../src/dom/DOMRect.js';
 
 describe('DOMRect', () => {

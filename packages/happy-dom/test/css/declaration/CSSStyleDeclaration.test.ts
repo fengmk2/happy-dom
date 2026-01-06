@@ -3,7 +3,7 @@ import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
 import HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('CSSStyleDeclaration', () => {
 	let window: Window;

@@ -1,7 +1,7 @@
 import Window from '../../src/window/Window.js';
 import Document from '../../src/nodes/document/Document.js';
 import Element from '../../src/nodes/element/Element.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import DOMTokenList from '../../src/dom/DOMTokenList.js';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 

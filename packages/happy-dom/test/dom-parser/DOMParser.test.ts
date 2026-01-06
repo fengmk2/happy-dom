@@ -2,7 +2,7 @@ import Window from '../../src/window/Window.js';
 import HTMLSerializer from '../../src/html-serializer/HTMLSerializer.js';
 import DOMParser from '../../src/dom-parser/DOMParser.js';
 import DOMParserHTML from './data/DOMParserHTML.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import XMLSerializer from '../../src/xml-serializer/XMLSerializer.js';
 import HTMLElement from '../../src/nodes/html-element/HTMLElement.js';
 import Document from '../../src/nodes/document/Document.js';

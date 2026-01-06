@@ -1,6 +1,6 @@
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import HTMLCollection from '../../../src/nodes/element/HTMLCollection.js';

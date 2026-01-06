@@ -3,7 +3,7 @@ import DOMExceptionNameEnum from '../../../src/exception/DOMExceptionNameEnum.js
 import Document from '../../../src/nodes/document/Document.js';
 import HTMLMediaElement from '../../../src/nodes/html-media-element/HTMLMediaElement.js';
 import Event from '../../../src/event/Event.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 import HTMLVideoElement from '../../../src/nodes/html-video-element/HTMLVideoElement.js';
 import HTMLAudioElement from '../../../src/nodes/html-audio-element/HTMLAudioElement.js';
 import TimeRanges from '../../../src/nodes/html-media-element/TimeRanges.js';

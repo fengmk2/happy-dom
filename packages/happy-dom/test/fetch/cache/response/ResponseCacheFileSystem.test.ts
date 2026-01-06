@@ -2,7 +2,7 @@ import ICachedResponse from '../../../../src/fetch/cache/response/ICachedRespons
 import ResponseCacheFileSystem from '../../../../src/fetch/cache/response/ResponseCacheFileSystem';
 import FS from 'fs';
 import Path from 'path';
-import { beforeEach, describe, it, expect, vi, afterEach } from 'vitest';
+import { beforeEach, describe, it, expect, vi, afterEach } from '@voidzero-dev/vite-plus/test';
 import Headers from '../../../../src/fetch/Headers';
 
 const ROOT_DIRECTORY = '/root/';

@@ -2,7 +2,7 @@ import Window from '../../../../src/window/Window.js';
 import Document from '../../../../src/nodes/document/Document.js';
 import HTMLElement from '../../../../src/nodes/html-element/HTMLElement.js';
 import CSSStyleDeclarationElementStyle from '../../../../src/css/declaration/computed-style/CSSStyleDeclarationComputedStyle.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('CSSStyleDeclarationElementStyle', () => {
 	let window: Window;

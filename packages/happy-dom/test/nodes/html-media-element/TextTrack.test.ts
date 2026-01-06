@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach } from '@voidzero-dev/vite-plus/test';
 import TextTrack from '../../../src/nodes/html-media-element/TextTrack.js';
 import TextTrackKindEnum from '../../../src/nodes/html-media-element/TextTrackKindEnum.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
