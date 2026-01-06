@@ -35,7 +35,8 @@
 			"dependsOn": ["happy-dom#compile", "^compile"]
 		},
 		"test": {
-			"inputs": ["test/**"]
+			"inputs": ["test/**"],
+			"cache": false
 		}
 	}
 }
