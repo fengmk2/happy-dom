@@ -27,7 +27,7 @@ describe('QuerySelector', () => {
 			);
 			expect(() => container.querySelectorAll(<string>(<unknown>(() => {})))).toThrow(
 				new window.DOMException(
-					`Failed to execute 'querySelectorAll' on 'HTMLDivElement': '() => {\n      }' is not a valid selector.`
+					`Failed to execute 'querySelectorAll' on 'HTMLDivElement': '() => {}' is not a valid selector.`
 				)
 			);
 			expect(() => container.querySelectorAll(<string>(<unknown>Symbol('test')))).toThrow(
@@ -1394,7 +1394,7 @@ describe('QuerySelector', () => {
 			);
 			expect(() => container.querySelector(<string>(<unknown>(() => {})))).toThrow(
 				new window.DOMException(
-					`Failed to execute 'querySelector' on 'HTMLDivElement': '() => {\n      }' is not a valid selector.`
+					`Failed to execute 'querySelector' on 'HTMLDivElement': '() => {}' is not a valid selector.`
 				)
 			);
 			expect(() => container.querySelector(<string>(<unknown>Symbol('test')))).toThrow(
@@ -1875,7 +1875,7 @@ describe('QuerySelector', () => {
 			);
 			expect(() => container.matches(<string>(<unknown>(() => {})))).toThrow(
 				new window.DOMException(
-					`Failed to execute 'matches' on 'HTMLDivElement': '() => {\n      }' is not a valid selector.`
+					`Failed to execute 'matches' on 'HTMLDivElement': '() => {}' is not a valid selector.`
 				)
 			);
 			expect(() => container.matches(<string>(<unknown>Symbol('test')))).toThrow(

@@ -1,7 +1,6 @@
 import HTMLDocument from '../../src/nodes/html-document/HTMLDocument';
 import XMLDocument from '../../src/nodes/xml-document/XMLDocument';
 import Window from '../../src/window/Window';
-import Window from '../../src/window/Window';
 import { beforeEach, describe, it, expect } from '@voidzero-dev/vite-plus/test';
 
 describe('DOMImplementation', () => {
