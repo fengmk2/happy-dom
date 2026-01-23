@@ -2,7 +2,7 @@ import Browser from '../../src/browser/Browser';
 import BrowserContext from '../../src/browser/BrowserContext';
 import BrowserPage from '../../src/browser/BrowserPage';
 import DefaultBrowserSettings from '../../src/browser/DefaultBrowserSettings';
-import { describe, it, expect, afterEach, vi } from 'vitest';
+import { describe, it, expect, afterEach, vi } from 'vite-plus/test';
 
 describe('Browser', () => {
 	afterEach(() => {

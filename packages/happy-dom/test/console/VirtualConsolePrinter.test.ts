@@ -1,4 +1,4 @@
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import VirtualConsoleLogLevelEnum from '../../src/console/enums/VirtualConsoleLogLevelEnum.js';
 import VirtualConsoleLogTypeEnum from '../../src/console/enums/VirtualConsoleLogTypeEnum.js';
 import VirtualConsole from '../../src/console/VirtualConsole.js';

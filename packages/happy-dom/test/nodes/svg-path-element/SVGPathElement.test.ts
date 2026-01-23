@@ -1,7 +1,7 @@
 import SVGPathElement from '../../../src/nodes/svg-path-element/SVGPathElement.js';
 import Window from '../../../src/window/Window.js';
 import BrowserWindow from '../../../src/window/BrowserWindow.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGGeometryElement from '../../../src/nodes/svg-geometry-element/SVGGeometryElement.js';
 import Document from '../../../src/nodes/document/Document.js';
 

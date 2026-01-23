@@ -4,7 +4,7 @@ import HTMLSlotElement from '../../../src/nodes/html-slot-element/HTMLSlotElemen
 import CustomElementWithNamedSlots from './CustomElementWithNamedSlots.js';
 import CustomElementWithSlot from './CustomElementWithSlot.js';
 import Event from '../../../src/event/Event.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';
 import ShadowRoot from '../../../src/nodes/shadow-root/ShadowRoot.js';
 

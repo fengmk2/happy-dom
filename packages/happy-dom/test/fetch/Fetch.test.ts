@@ -14,7 +14,7 @@ import Path from 'path';
 import { URLSearchParams } from 'url';
 import '../types.d.js';
 import { ReadableStream } from 'stream/web';
-import { afterEach, describe, it, expect, vi } from 'vitest';
+import { afterEach, describe, it, expect, vi } from 'vite-plus/test';
 import FetchHTTPSCertificate from '../../src/fetch/certificate/FetchHTTPSCertificate.js';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 import { fail } from 'assert';

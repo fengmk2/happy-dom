@@ -1,7 +1,7 @@
 import HTMLModElement from '../../../src/nodes/html-mod-element/HTMLModElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLModElement', () => {
 	let window: Window;

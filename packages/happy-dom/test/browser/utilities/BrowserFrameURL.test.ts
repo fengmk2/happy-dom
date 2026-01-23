@@ -1,4 +1,4 @@
-import { describe, it, expect, afterEach, vi } from 'vitest';
+import { describe, it, expect, afterEach, vi } from 'vite-plus/test';
 import Browser from '../../../src/browser/Browser';
 import BrowserFrameURL from '../../../src/browser/utilities/BrowserFrameURL';
 import * as PropertySymbol from '../../../src/PropertySymbol';

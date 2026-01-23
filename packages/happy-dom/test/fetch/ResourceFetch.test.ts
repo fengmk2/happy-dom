@@ -1,7 +1,7 @@
 import BrowserWindow from '../../src/window/BrowserWindow.js';
 import ResourceFetch from '../../src/fetch/ResourceFetch.js';
 import Response from '../../src/fetch/Response.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from 'vite-plus/test';
 import Browser from '../../src/browser/Browser.js';
 import Fetch from '../../src/fetch/Fetch.js';
 import SyncFetch from '../../src/fetch/SyncFetch.js';

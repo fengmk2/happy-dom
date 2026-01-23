@@ -1,6 +1,6 @@
 import Browser from '../../src/browser/Browser';
 import BrowserPage from '../../src/browser/BrowserPage';
-import { describe, it, expect, afterEach, vi } from 'vitest';
+import { describe, it, expect, afterEach, vi } from 'vite-plus/test';
 
 describe('BrowserContext', () => {
 	afterEach(() => {

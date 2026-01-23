@@ -18,7 +18,7 @@ import Fetch from '../../src/fetch/Fetch.js';
 import MessageEvent from '../../src/event/events/MessageEvent.js';
 import Event from '../../src/event/Event.js';
 import ErrorEvent from '../../src/event/events/ErrorEvent.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from 'vite-plus/test';
 import Permissions from '../../src/permissions/Permissions.js';
 import Clipboard from '../../src/clipboard/Clipboard.js';
 import PackageVersion from '../../src/version.js';

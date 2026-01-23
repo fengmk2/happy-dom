@@ -4,7 +4,7 @@ import Headers from '../../src/fetch/Headers.js';
 import CustomElement from '../../test/CustomElement.js';
 import Response from '../../src/fetch/Response.js';
 import Fetch from '../../src/fetch/Fetch.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from 'vite-plus/test';
 import VirtualConsole from '../../src/console/VirtualConsole.js';
 import VirtualConsolePrinter from '../../src/console/VirtualConsolePrinter.js';
 import PackageVersion from '../../src/version.js';

@@ -1,7 +1,7 @@
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
 import ChildNodeUtility from '../../../src/nodes/child-node/ChildNodeUtility.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('ChildNodeUtility', () => {
 	let window: Window;

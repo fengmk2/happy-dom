@@ -1,7 +1,7 @@
 import HTMLHRElement from '../../../src/nodes/html-hr-element/HTMLHRElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLHRElement', () => {
 	let window: Window;

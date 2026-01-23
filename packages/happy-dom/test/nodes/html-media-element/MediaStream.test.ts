@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vite-plus/test';
 import MediaStream from '../../../src/nodes/html-media-element/MediaStream.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import BrowserWindow from '../../../src/window/BrowserWindow.js';

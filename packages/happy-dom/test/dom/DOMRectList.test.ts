@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 import DOMRectList from '../../src/dom/DOMRectList.js';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 import DOMRect from '../../src/dom/DOMRect.js';

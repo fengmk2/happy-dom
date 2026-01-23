@@ -1,4 +1,4 @@
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import DOMMatrixReadOnly from '../../../src/dom/dom-matrix/DOMMatrixReadOnly.js';
 import DOMMatrix from '../../../src/dom/dom-matrix/DOMMatrix.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
