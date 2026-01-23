@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 import DOMMatrix from '../../../src/dom/dom-matrix/DOMMatrix.js';
 import DOMMatrixReadOnly from '../../../src/dom/dom-matrix/DOMMatrixReadOnly.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';

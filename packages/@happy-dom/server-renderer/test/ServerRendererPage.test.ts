@@ -1,4 +1,4 @@
-import { describe, it, expect, afterEach, vi, beforeEach } from 'vitest';
+import { describe, it, expect, afterEach, vi, beforeEach } from 'vite-plus/test';
 import ServerRendererPage from '../src/ServerRendererPage.js';
 import ServerRendererConfigurationFactory from '../src/utilities/ServerRendererConfigurationFactory.js';
 import Fetch from 'happy-dom/lib/fetch/Fetch.js';

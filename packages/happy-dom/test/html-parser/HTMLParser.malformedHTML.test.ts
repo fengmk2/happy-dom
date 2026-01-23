@@ -2,7 +2,7 @@ import Window from '../../src/window/Window.js';
 import Document from '../../src/nodes/document/Document.js';
 import HTMLParser from '../../src/html-parser/HTMLParser.js';
 import HTMLSerializer from '../../src/html-serializer/HTMLSerializer.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 /**
  * Test cases for GitHub issue #1949:

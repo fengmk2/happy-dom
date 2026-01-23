@@ -4,7 +4,7 @@ import ICookie from '../../src/cookie/ICookie.js';
 import ICookieContainer from '../../src/cookie/ICookieContainer.js';
 import CookieStringUtility from '../../src/cookie/urilities/CookieStringUtility.js';
 import URL from '../../src/url/URL.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from 'vite-plus/test';
 
 describe('CookieContainer', () => {
 	let cookieContainer: ICookieContainer;

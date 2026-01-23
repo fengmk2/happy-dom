@@ -1,7 +1,7 @@
 import Blob from '../../src/file/Blob.js';
 import FileReader from '../../src/file/FileReader.js';
 import Window from '../../src/window/Window.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('FileReader', () => {
 	let window: Window;

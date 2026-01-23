@@ -1,5 +1,5 @@
 import Window from '../../src/window/Window.js';
-import { beforeEach, describe, it, vi, expect } from 'vitest';
+import { beforeEach, describe, it, vi, expect } from 'vite-plus/test';
 import Event from '../../src/event/Event.js';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 import MessageEvent from '../../src/event/events/MessageEvent.js';

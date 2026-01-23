@@ -1,5 +1,5 @@
 import Storage from '../../src/storage/Storage.js';
-import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, describe, it, expect, vi } from 'vite-plus/test';
 
 describe('Storage', () => {
 	let storage: Storage;

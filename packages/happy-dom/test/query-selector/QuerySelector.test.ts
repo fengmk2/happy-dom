@@ -4,7 +4,7 @@ import Document from '../../src/nodes/document/Document.js';
 import QuerySelectorHTML from './data/QuerySelectorHTML.js';
 import QuerySelectorNthChildHTML from './data/QuerySelectorNthChildHTML.js';
 import HTMLInputElement from '../../src/nodes/html-input-element/HTMLInputElement.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import QuerySelector from '../../src/query-selector/QuerySelector.js';
 import DOMException from '../../src/exception/DOMException.js';
 

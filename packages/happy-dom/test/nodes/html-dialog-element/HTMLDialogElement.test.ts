@@ -2,7 +2,7 @@ import Event from '../../../src/event/Event.js';
 import HTMLDialogElement from '../../../src/nodes/html-dialog-element/HTMLDialogElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import KeyboardEvent from '../../../src/event/events/KeyboardEvent.js';
 
 describe('HTMLDialogElement', () => {

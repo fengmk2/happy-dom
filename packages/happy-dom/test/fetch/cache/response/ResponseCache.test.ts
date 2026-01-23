@@ -1,7 +1,7 @@
 import CachedResponseStateEnum from '../../../../src/fetch/cache/response/CachedResponseStateEnum';
 import ResponseCache from '../../../../src/fetch/cache/response/ResponseCache';
 import Headers from '../../../../src/fetch/Headers';
-import { beforeEach, describe, it, expect, vi, afterEach } from 'vitest';
+import { beforeEach, describe, it, expect, vi, afterEach } from 'vite-plus/test';
 
 // Rounds it to seconds, so that UTC parsing will match.
 const DATE_NOW = Math.floor(Date.now() / 1000) * 1000;

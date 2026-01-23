@@ -3,7 +3,7 @@ import Blob from '../../src/file/Blob.js';
 import BrowserWindow from '../../src/window/BrowserWindow.js';
 import Window from '../../src/window/Window.js';
 import { Blob as NodeJSBlob } from 'buffer';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('URL', () => {
 	let window: BrowserWindow;

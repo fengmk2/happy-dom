@@ -36,10 +36,10 @@
 	"scripts": {
 		"compile": "tsc && tsc --project ./bin",
 		"watch": "concurrently --raw \"tsc -w --preserveWatchOutput\" \"tsc -w --preserveWatchOutput --project ./bin\"",
-		"test": "vitest run",
-		"test:ui": "vitest --ui",
-		"test:watch": "vitest",
-		"test:debug": "vitest run --inspect-brk --no-file-parallelism"
+		"test": "vite test run",
+		"test:ui": "vite test --ui",
+		"test:watch": "vite test",
+		"test:debug": "vite test run --inspect-brk --no-file-parallelism"
 	},
 	"dependencies": {
 		"happy-dom": "^0.0.0",
@@ -54,7 +54,8 @@
 		"concurrently": "^9.1.2",
 		"prettier": "^2.6.0",
 		"typescript": "^5.0.4",
-		"vitest": "^2.1.4"
+		"vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+		"vite-plus": "latest"
 	},
 	"engines": {
 		"node": ">=20.0.0"

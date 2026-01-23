@@ -1,6 +1,6 @@
 import Window from '../../../src/window/Window.js';
 import HTMLImageElement from '../../../src/nodes/html-image-element/HTMLImageElement.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import NamespaceURI from '../../../src/config/NamespaceURI.js';
 
 describe('Image', () => {

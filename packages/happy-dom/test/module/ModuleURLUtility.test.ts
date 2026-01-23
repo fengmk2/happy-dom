@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vite-plus/test';
 import Window from '../../src/window/Window.js';
 import ModuleURLUtility from '../../src/module/ModuleURLUtility.js';
 import FS from 'fs';

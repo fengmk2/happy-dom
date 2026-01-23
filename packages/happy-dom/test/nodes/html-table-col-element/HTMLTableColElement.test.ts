@@ -1,7 +1,7 @@
 import HTMLTableColElement from '../../../src/nodes/html-table-col-element/HTMLTableColElement.js';
 import Window from '../../../src/window/Window.js';
 import Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLTableColElement', () => {
 	let window: Window;
