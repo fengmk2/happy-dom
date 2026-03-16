@@ -1,6 +1,6 @@
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGPolygonElement from '../../../src/nodes/svg-polygon-element/SVGPolygonElement.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import SVGGeometryElement from '../../../src/nodes/svg-geometry-element/SVGGeometryElement.js';

@@ -1,7 +1,7 @@
 import SVGAnimateElement from '../../../src/nodes/svg-animate-element/SVGAnimateElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGAnimationElement from '../../../src/nodes/svg-animation-element/SVGAnimationElement.js';
 
 describe('SVGAnimateElement', () => {

@@ -1,4 +1,4 @@
-import { vi, beforeAll } from 'vitest';
+import { vi, beforeAll } from 'vite-plus/test';
 
 const mockedModuleNames = ['child_process', 'http', 'https'];
 const mockedModuleImplementations = {};

@@ -4,7 +4,7 @@ import type IBrowserFrame from '../../src/browser/types/IBrowserFrame.js';
 import type IGoToOptions from '../../src/browser/types/IGoToOptions.js';
 import type Response from '../../src/fetch/Response.js';
 import Location from '../../src/location/Location.js';
-import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, describe, it, expect, vi } from 'vite-plus/test';
 import type HashChangeEvent from '../../src/event/events/HashChangeEvent.js';
 
 const HREF = 'https://google.com/some-path/?key=value&key2=value2#hash';

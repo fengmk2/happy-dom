@@ -1,7 +1,7 @@
 import Window from '../../src/window/Window.js';
 import type Document from '../../src/nodes/document/Document.js';
 import type HTMLInputElement from '../../src/nodes/html-input-element/HTMLInputElement.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('ValidityState', () => {
 	let window: Window;

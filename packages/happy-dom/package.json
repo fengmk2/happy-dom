@@ -27,10 +27,10 @@
 		"compile": "tsc && npm run compile:build-version-file",
 		"compile:build-version-file": "node ./bin/build-version-file.cjs",
 		"watch": "tsc -w --preserveWatchOutput",
-		"test": "vitest run",
-		"test:ui": "vitest --ui",
-		"test:watch": "vitest",
-		"test:debug": "vitest run --inspect-brk --no-file-parallelism",
+		"test": "vp test run",
+		"test:ui": "vp test --ui",
+		"test:watch": "vp test",
+		"test:debug": "vp test run --inspect-brk --no-file-parallelism",
 		"test:circular-dependencies": "madge --circular --extensions js lib/index.js"
 	},
 	"dependencies": {
@@ -45,8 +45,9 @@
 		"@vitest/ui": "^4.0.16",
 		"@webref/css": "6.6.2",
 		"typescript": "^5.8.3",
-		"vitest": "^4.0.16",
-		"madge": "^8.0.0"
+		"vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+		"madge": "^8.0.0",
+		"vite-plus": "latest"
 	},
 	"engines": {
 		"node": ">=20.0.0"

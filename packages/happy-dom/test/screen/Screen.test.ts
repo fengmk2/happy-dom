@@ -1,4 +1,4 @@
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import Window from '../../src/window/Window.js';
 import Screen from '../../src/screen/Screen.js';
 import EventTarget from '../../src/event/EventTarget.js';

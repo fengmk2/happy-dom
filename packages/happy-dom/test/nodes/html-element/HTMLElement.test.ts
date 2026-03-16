@@ -7,7 +7,7 @@ import Window from '../../../src/window/Window.js';
 import CustomElement from '../../CustomElement.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import type CustomElementRegistry from '../../../src/custom-element/CustomElementRegistry.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from 'vite-plus/test';
 import type EventTarget from '../../../src/event/EventTarget.js';
 import Event from '../../../src/event/Event.js';
 

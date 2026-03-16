@@ -4,7 +4,7 @@ import BrowserWindow from '../../src/window/BrowserWindow';
 import VirtualConsolePrinter from '../../src/console/VirtualConsolePrinter';
 import VirtualConsole from '../../src/console/VirtualConsole';
 import type Response from '../../src/fetch/Response';
-import { describe, it, expect, afterEach, vi } from 'vitest';
+import { describe, it, expect, afterEach, vi } from 'vite-plus/test';
 import type IGoToOptions from '../../src/browser/types/IGoToOptions';
 import BrowserFrameFactory from '../../src/browser/utilities/BrowserFrameFactory';
 import Event from '../../src/event/Event';

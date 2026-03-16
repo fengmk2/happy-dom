@@ -3,7 +3,7 @@ import type Document from '../../../src/nodes/document/Document.js';
 import NodeUtility from '../../../src/nodes/node/NodeUtility.js';
 import NodeTypeEnum from '../../../src/nodes/node/NodeTypeEnum.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('NodeUtility', () => {
 	let window: Window;

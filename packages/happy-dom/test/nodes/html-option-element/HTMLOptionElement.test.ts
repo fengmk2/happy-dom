@@ -2,7 +2,7 @@ import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
 import type HTMLOptionElement from '../../../src/nodes/html-option-element/HTMLOptionElement.js';
 import type HTMLSelectElement from '../../../src/nodes/html-select-element/HTMLSelectElement.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLOptionElement', () => {
 	let window: Window;

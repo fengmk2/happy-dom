@@ -6,7 +6,7 @@ import NamespaceURI from '../../src/config/NamespaceURI.js';
 import type DocumentType from '../../src/nodes/document-type/DocumentType.js';
 import XMLSerializer from '../../src/xml-serializer/XMLSerializer.js';
 import NodeTypeEnum from '../../src/nodes/node/NodeTypeEnum.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import CustomElement from '../CustomElement.js';
 import type Element from '../../src/nodes/element/Element.js';
 import type ProcessingInstruction from '../../src/nodes/processing-instruction/ProcessingInstruction.js';

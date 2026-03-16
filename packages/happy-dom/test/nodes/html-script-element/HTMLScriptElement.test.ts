@@ -3,7 +3,7 @@ import type HTMLScriptElement from '../../../src/nodes/html-script-element/HTMLS
 import type Document from '../../../src/nodes/document/Document.js';
 import type Response from '../../../src/fetch/Response.js';
 import ResourceFetch from '../../../src/fetch/ResourceFetch.js';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from 'vite-plus/test';
 import Event from '../../../src/event/Event.js';
 import type ErrorEvent from '../../../src/event/events/ErrorEvent.js';
 import type BrowserWindow from '../../../src/window/BrowserWindow.js';

@@ -1,7 +1,7 @@
 import HTMLDListElement from '../../../src/nodes/html-d-list-element/HTMLDListElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLDListElement', () => {
 	let window: Window;

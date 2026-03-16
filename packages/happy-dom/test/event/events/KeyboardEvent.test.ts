@@ -1,5 +1,5 @@
 import KeyboardEvent from '../../../src/event/events/KeyboardEvent.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 
 describe('KeyboardEvent', () => {
 	describe('constructor()', () => {

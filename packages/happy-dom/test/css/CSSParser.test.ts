@@ -7,7 +7,7 @@ import type CSSKeyframeRule from '../../src/css/rules/CSSKeyframeRule.js';
 import type CSSKeyframesRule from '../../src/css/rules/CSSKeyframesRule.js';
 import type CSSContainerRule from '../../src/css/rules/CSSContainerRule.js';
 import type CSSSupportsRule from '../../src/css/rules/CSSSupportsRule.js';
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vite-plus/test';
 import type BrowserWindow from '../../src/window/BrowserWindow.js';
 import Window from '../../src/window/Window.js';
 

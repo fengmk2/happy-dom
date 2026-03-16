@@ -1,4 +1,4 @@
-import { describe, it, expect, afterEach, vi, beforeEach } from 'vitest';
+import { describe, it, expect, afterEach, vi, beforeEach } from 'vite-plus/test';
 import type { Http2ServerRequest, Http2ServerResponse } from 'http2';
 import Http2 from 'http2';
 import ServerRendererServer from '../src/ServerRendererServer.js';

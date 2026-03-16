@@ -5,7 +5,7 @@ import Element from '../../src/nodes/element/Element.js';
 import Comment from '../../src/nodes/comment/Comment.js';
 import Node from '../../src/nodes/node/Node.js';
 import TreeWalkerHTML from './data/TreeWalkerHTML.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 const NODE_TO_STRING = (node: Node): string => {
 	if (node instanceof Element) {

@@ -2,7 +2,7 @@ import CookieURLUtility from '../../../src/cookie/urilities/CookieURLUtility.js'
 import CookieSameSiteEnum from '../../../src/cookie/enums/CookieSameSiteEnum.js';
 import type ICookie from '../../../src/cookie/ICookie.js';
 import URL from '../../../src/url/URL.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 
 describe('CookieURLUtility', () => {
 	describe('cookieMatchesURL()', () => {

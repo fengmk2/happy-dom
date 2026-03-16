@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vite-plus/test';
 import type BrowserWindow from '../../../src/window/BrowserWindow.js';
 import Window from '../../../src/window/Window.js';
 import TextTrackCue from '../../../src/nodes/html-media-element/TextTrackCue.js';

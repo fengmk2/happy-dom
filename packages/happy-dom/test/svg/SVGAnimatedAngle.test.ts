@@ -1,4 +1,4 @@
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGAngle from '../../src/svg/SVGAngle.js';
 import type BrowserWindow from '../../src/window/BrowserWindow.js';
 import Window from '../../src/window/Window.js';

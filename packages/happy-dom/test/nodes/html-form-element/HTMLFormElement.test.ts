@@ -16,7 +16,7 @@ import type File from '../../../src/file/File.js';
 import type HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';
 import type HTMLIFrameElement from '../../../src/nodes/html-iframe-element/HTMLIFrameElement.js';
 import type BrowserWindow from '../../../src/window/BrowserWindow.js';
-import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, describe, it, expect, vi } from 'vite-plus/test';
 import type THTMLFormControlElement from '../../../src/nodes/html-form-element/THTMLFormControlElement.js';
 import type HTMLOutputElement from '../../../src/nodes/html-output-element/HTMLOutputElement.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';

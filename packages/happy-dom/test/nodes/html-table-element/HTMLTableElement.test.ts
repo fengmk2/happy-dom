@@ -1,7 +1,7 @@
 import HTMLTableElement from '../../../src/nodes/html-table-element/HTMLTableElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import type HTMLTableCaptionElement from '../../../src/nodes/html-table-caption-element/HTMLTableCaptionElement.js';
 import HTMLCollection from '../../../src/nodes/element/HTMLCollection.js';
 

@@ -1,6 +1,6 @@
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGFEMergeNodeElement from '../../../src/nodes/svg-fe-merge-node-element/SVGFEMergeNodeElement.js';
 import SVGElement from '../../../src/nodes/svg-element/SVGElement.js';
 

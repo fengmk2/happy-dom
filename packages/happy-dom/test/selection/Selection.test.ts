@@ -4,7 +4,7 @@ import Selection from '../../src/selection/Selection.js';
 import SelectionDirectionEnum from '../../src/selection/SelectionDirectionEnum.js';
 import DOMExceptionNameEnum from '../../src/exception/DOMExceptionNameEnum.js';
 import NodeTypeEnum from '../../src/nodes/node/NodeTypeEnum.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import type Event from '../../src/event/Event.js';
 
 describe('Selection', () => {
