@@ -1,7 +1,7 @@
 import SVGGElement from '../../../src/nodes/svg-g-element/SVGGElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGGraphicsElement from '../../../src/nodes/svg-graphics-element/SVGGraphicsElement.js';
 import type BrowserWindow from '../../../src/window/BrowserWindow.js';
 

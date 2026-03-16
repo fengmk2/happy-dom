@@ -4,7 +4,7 @@ import type Element from '../../../src/nodes/element/Element.js';
 import type Attr from '../../../src/nodes/attr/Attr.js';
 import DOMException from '../../../src/exception/DOMException.js';
 import DOMExceptionNameEnum from '../../../src/exception/DOMExceptionNameEnum.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('NamedNodeMap', () => {
 	let window: Window;

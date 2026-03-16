@@ -2,7 +2,7 @@ import Event from '../../../src/event/Event.js';
 import SubmitEvent from '../../../src/event/events/SubmitEvent.js';
 import HTMLButtonElement from '../../../src/nodes/html-button-element/HTMLButtonElement.js';
 import Window from '../../../src/window/Window.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 
 describe('SubmitEvent', () => {
 	describe('constructor', () => {

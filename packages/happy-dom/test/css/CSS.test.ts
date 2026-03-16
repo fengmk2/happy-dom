@@ -1,7 +1,7 @@
 import CSS from '../../src/css/CSS.js';
 import CSSUnits from '../../src/css/CSSUnits.js';
 import type CSSUnitValue from '../../src/css/CSSUnitValue.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('CSS', () => {
 	let css: CSS;

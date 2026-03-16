@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vite-plus/test';
 import type Document from '../../../src/nodes/document/Document.js';
 import HTMLTimeElement from '../../../src/nodes/html-time-element/HTMLTimeElement.js';
 import Window from '../../../src/window/Window.js';

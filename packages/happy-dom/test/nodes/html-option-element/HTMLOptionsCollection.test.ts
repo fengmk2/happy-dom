@@ -3,7 +3,7 @@ import type Document from '../../../src/nodes/document/Document.js';
 import type HTMLSelectElement from '../../../src/nodes/html-select-element/HTMLSelectElement.js';
 import type HTMLOptionElement from '../../../src/nodes/html-option-element/HTMLOptionElement.js';
 import DOMException from '../../../src/exception/DOMException.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLOptionsCollection', () => {
 	let window: Window;

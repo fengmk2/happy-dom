@@ -1,7 +1,7 @@
 import HTMLProgressElement from '../../../src/nodes/html-progress-element/HTMLProgressElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLProgressElement', () => {
 	let window: Window;

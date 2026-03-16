@@ -1,7 +1,7 @@
 import type IBrowserFrame from '../../src/browser/types/IBrowserFrame.js';
 import Browser from '../../src/browser/Browser.js';
 import HistoryScrollRestorationEnum from '../../src/history/HistoryScrollRestorationEnum.js';
-import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, describe, it, expect, vi } from 'vite-plus/test';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 import Fetch from '../../src/fetch/Fetch.js';
 import type Request from '../../src/fetch/Request';

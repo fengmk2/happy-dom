@@ -2,7 +2,7 @@ import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
 import type HTMLLabelElement from '../../../src/nodes/html-label-element/HTMLLabelElement.js';
 import type HTMLInputElement from '../../../src/nodes/html-input-element/HTMLInputElement.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import MouseEvent from '../../../src/event/events/MouseEvent.js';
 
 describe('HTMLLabelElement', () => {

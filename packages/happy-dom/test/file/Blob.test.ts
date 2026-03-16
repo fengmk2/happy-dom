@@ -1,5 +1,5 @@
 import Blob from '../../src/file/Blob.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 import * as PropertySymbol from '../../src/PropertySymbol.js';
 
 describe('Blob', () => {

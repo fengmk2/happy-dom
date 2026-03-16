@@ -1,7 +1,7 @@
 import HTMLHeadingElement from '../../../src/nodes/html-heading-element/HTMLHeadingElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLHeadingElement', () => {
 	let window: Window;

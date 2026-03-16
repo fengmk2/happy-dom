@@ -8,7 +8,7 @@ import type DocumentType from '../../src/nodes/document-type/DocumentType.js';
 import HTMLSerializer from '../../src/html-serializer/HTMLSerializer.js';
 import type HTMLTemplateElement from '../../src/nodes/html-template-element/HTMLTemplateElement.js';
 import NodeTypeEnum from '../../src/nodes/node/NodeTypeEnum.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import CustomElement from '../CustomElement.js';
 import HTMLHtmlElement from '../../src/nodes/html-html-element/HTMLHtmlElement.js';
 import XMLSerializer from '../../src/xml-serializer/XMLSerializer.js';

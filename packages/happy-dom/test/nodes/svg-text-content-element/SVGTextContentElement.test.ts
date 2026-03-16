@@ -1,6 +1,6 @@
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGTextContentElement from '../../../src/nodes/svg-text-content-element/SVGTextContentElement.js';
 import SVGLength from '../../../src/svg/SVGLength.js';
 import SVGGraphicsElement from '../../../src/nodes/svg-graphics-element/SVGGraphicsElement.js';

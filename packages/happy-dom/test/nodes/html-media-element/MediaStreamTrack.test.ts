@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vite-plus/test';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import EventTarget from '../../../src/event/EventTarget.js';
 import type BrowserWindow from '../../../src/window/BrowserWindow.js';

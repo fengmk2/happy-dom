@@ -6,7 +6,7 @@ import CrossOriginBrowserWindow from '../../../src/window/CrossOriginBrowserWind
 import type MessageEvent from '../../../src/event/events/MessageEvent.js';
 import DOMExceptionNameEnum from '../../../src/exception/DOMExceptionNameEnum.js';
 import DOMException from '../../../src/exception/DOMException.js';
-import { beforeEach, describe, it, expect, vi, afterEach } from 'vitest';
+import { beforeEach, describe, it, expect, vi, afterEach } from 'vite-plus/test';
 import Headers from '../../../src/fetch/Headers.js';
 import Browser from '../../../src/browser/Browser.js';
 import DOMTokenList from '../../../src/dom/DOMTokenList.js';

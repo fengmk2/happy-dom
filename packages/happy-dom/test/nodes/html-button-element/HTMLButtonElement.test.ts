@@ -6,7 +6,7 @@ import type SubmitEvent from '../../../src/event/events/SubmitEvent';
 import type HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';
 import type HTMLFormElement from '../../../src/nodes/html-form-element/HTMLFormElement.js';
 import ValidityState from '../../../src/validity-state/ValidityState.js';
-import { beforeEach, afterEach, describe, it, expect } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect } from 'vite-plus/test';
 import MouseEvent from '../../../src/event/events/MouseEvent.js';
 import PointerEvent from '../../../src/event/events/PointerEvent.js';
 

@@ -1,7 +1,7 @@
 import type HTMLCanvasElement from '../../../src/nodes/html-canvas-element/HTMLCanvasElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 import MediaStreamTrack from '../../../src/nodes/html-media-element/MediaStreamTrack.js';
 

@@ -1,7 +1,7 @@
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
 import type HTMLImageElement from '../../../src/nodes/html-image-element/HTMLImageElement.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLImageElement', () => {
 	let window: Window;

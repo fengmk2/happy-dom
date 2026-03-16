@@ -1,7 +1,7 @@
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
 import SVGStyleElement from '../../../src/nodes/svg-style-element/SVGStyleElement.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import SVGElement from '../../../src/nodes/svg-element/SVGElement.js';
 
 describe('SVGStyleElement', () => {

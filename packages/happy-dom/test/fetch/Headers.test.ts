@@ -1,5 +1,5 @@
 import Headers from '../../src/fetch/Headers.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 import Window from '../../src/window/Window.js';
 
 describe('Headers', () => {

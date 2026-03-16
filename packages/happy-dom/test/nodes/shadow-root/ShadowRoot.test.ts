@@ -3,7 +3,7 @@ import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
 import CustomElement from '../../CustomElement.js';
 import type ShadowRoot from '../../../src/nodes/shadow-root/ShadowRoot.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import CSSStyleSheet from '../../../src/css/CSSStyleSheet.js';
 import * as PropertySymbol from '../../../src/PropertySymbol.js';
 

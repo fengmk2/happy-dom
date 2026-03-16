@@ -1,7 +1,7 @@
 import HTMLDataListElement from '../../../src/nodes/html-data-list-element/HTMLDataListElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import HTMLCollection from '../../../src/nodes/element/HTMLCollection.js';
 
 describe('HTMLDataListElement', () => {

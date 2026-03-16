@@ -4,7 +4,7 @@ import type HTMLSelectElement from '../../../src/nodes/html-select-element/HTMLS
 import type HTMLOptionElement from '../../../src/nodes/html-option-element/HTMLOptionElement.js';
 import ValidityState from '../../../src/validity-state/ValidityState.js';
 import Event from '../../../src/event/Event.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import HTMLCollection from '../../../src/nodes/element/HTMLCollection.js';
 import type EventTarget from '../../../src/event/EventTarget.js';
 

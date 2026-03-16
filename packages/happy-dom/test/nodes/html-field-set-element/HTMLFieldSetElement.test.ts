@@ -1,7 +1,7 @@
 import HTMLFieldSetElement from '../../../src/nodes/html-field-set-element/HTMLFieldSetElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 import type HTMLFormElement from '../../../src/nodes/html-form-element/HTMLFormElement.js';
 import type HTMLElement from '../../../src/nodes/html-element/HTMLElement.js';
 

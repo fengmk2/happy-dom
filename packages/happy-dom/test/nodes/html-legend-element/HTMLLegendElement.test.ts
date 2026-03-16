@@ -1,7 +1,7 @@
 import HTMLLegendElement from '../../../src/nodes/html-legend-element/HTMLLegendElement.js';
 import Window from '../../../src/window/Window.js';
 import type Document from '../../../src/nodes/document/Document.js';
-import { beforeEach, describe, it, expect } from 'vitest';
+import { beforeEach, describe, it, expect } from 'vite-plus/test';
 
 describe('HTMLLegendElement', () => {
 	let window: Window;

@@ -7,7 +7,7 @@ import Blob from '../../src/file/Blob.js';
 import type Document from '../../src/nodes/document/Document.js';
 import type { IncomingMessage } from 'http';
 import Stream from 'stream';
-import { beforeEach, afterEach, describe, it, expect, vi } from 'vitest';
+import { beforeEach, afterEach, describe, it, expect, vi } from 'vite-plus/test';
 import SyncFetch from '../../src/fetch/SyncFetch.js';
 import type Response from '../../src/fetch/Response.js';
 import type ISyncResponse from '../../src/fetch/types/ISyncResponse.js';

@@ -2,7 +2,7 @@ import Touch from '../../../src/event/Touch.js';
 import type ITouchEventInit from '../../../src/event/events/ITouchEventInit.js';
 import TouchEvent from '../../../src/event/events/TouchEvent.js';
 import Window from '../../../src/window/Window.js';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 
 describe('TouchEvent', () => {
 	describe('constructor()', () => {
